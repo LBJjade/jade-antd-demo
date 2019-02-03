@@ -7,6 +7,7 @@ import 'moment/locale/zh-cn';
 import moment from 'moment';
 import "antd/dist/antd.css";
 import "./index.css";
+import BB from './components/B'
 
 moment.locale('zh-cn');
 class App extends Component {
@@ -27,10 +28,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
-            Edit <code>src/App.js</code> and save to reload.
-            Edit <code>src/App.js</code> and save to reload.
-            Edit <code>src/App.js</code> and save to reload.
-            Edit <code>src/App.js</code> and save to reload.
           </p>
           <LocaleProvider locale={zhCN}>
         <div style={{ width: 400, margin: '100px auto' }}>
@@ -49,6 +46,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <BB></BB>
       </div>
     );
   }
