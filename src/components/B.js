@@ -4,7 +4,7 @@ class B extends Component {
   render() {
     return (
       <div>
-         我是bajl
+         我是ba
       </div>
     )
   }
